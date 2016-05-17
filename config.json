@@ -1,0 +1,91 @@
+{
+    "language"        : "PYTHON",
+    "main-file"       : "deepSEA_cnn_spmt.py",
+    "experiment-name" : "test-experiment",
+    "likelihood"      : "GAUSSIAN",
+    "variables" : {
+        "nb_filters_c1" : {
+            "type" : "FLOAT",
+            "size" : 1,
+            "min"  : 140,
+            "max"  : 420
+        },
+        "nb_filters_p1" : {
+            "type" : "FLOAT",
+            "size" : 1,
+            "min"  : 2,
+            "max"  : 6
+        },
+        "nb_conv_1" : {
+            "type" : "FLOAT",
+            "size" : 1,
+            "min"  : 11,
+            "max"  : 30
+        },
+
+        "nb_filters_c2" : {
+            "type" : "FLOAT",
+            "size" : 1,
+            "min"  : 120,
+            "max"  : 340
+        },
+        "nb_filters_p2" : {
+            "type" : "FLOAT",
+            "size" : 1,
+            "min"  : 2,
+            "max"  : 6
+        },
+        "nb_conv_2" : {
+            "type" : "FLOAT",
+            "size" : 1,
+            "min"  : 6,
+            "max"  : 20
+        },
+
+        "nb_filters_c3" : {
+            "type" : "FLOAT",
+            "size" : 1,
+            "min"  : 120,
+            "max"  : 340
+        },
+        "nb_filters_p3" : {
+            "type" : "FLOAT",
+            "size" : 1,
+            "min"  : 2,
+            "max"  : 6
+        },
+        "nb_conv_3" : {
+            "type" : "FLOAT",
+            "size" : 1,
+            "min"  : 4,
+            "max"  : 17
+        },
+
+        "nb_hunit_1" : {
+            "type" : "FLOAT",
+            "size" : 1,
+            "min"  : 50,
+            "max"  : 300
+        },
+        "dropout_1" : {
+            "type" : "FLOAT",
+            "size" : 1,
+            "min"  : 0.1,
+            "max"  : 0.5
+        },
+
+        "nb_hunit_2" : {
+            "type" : "FLOAT",
+            "size" : 1,
+            "min"  : 50,
+            "max"  : 200
+        },
+        "dropout_2" : {
+            "type" : "FLOAT",
+            "size" : 1,
+            "min"  : 0.1,
+            "max"  : 0.5
+        }
+    }
+}
+
